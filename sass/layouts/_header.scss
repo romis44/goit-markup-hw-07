@@ -22,12 +22,17 @@
 
 .header .link {
   transition: color var(--animation);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-txt-cl);
+  }
 }
 
-.header .link:hover,
-.header .link:focus {
-  color: var(--accent-txt-cl);
-}
+// .header .link:hover,
+// .header .link:focus {
+//   color: var(--accent-txt-cl);
+// }
 
 .header__list .link {
   color: var(--grey-txt-cl);
@@ -38,3 +43,19 @@
   align-items: center;
   gap: 10px;
 }
+
+.header__icon {
+  fill: currentColor;
+  stroke: var(--grey-txt-cl);
+  transition: fill var(--animation);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-bg-cl);
+  }
+}
+
+// .header__icon:hover,
+// .header__icon:focus {
+//   fill: var(--accent-bg-cl);
+// }

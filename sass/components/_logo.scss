@@ -1,0 +1,34 @@
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--accent-txt-cl);
+  text-decoration: none;
+  padding: 24px 0;
+  margin-right: 93px;
+}
+
+.logo__dark {
+  color: var(--logo-txt-cl);
+}
+
+// .footer .logo-footer {
+//   font-family: var(--secondary-font);
+//   font-weight: 700;
+//   font-size: 26px;
+//   line-height: calc(31 / 26);
+//   color: var(--accent-txt-cl);
+//   text-decoration: none;
+// }
+
+.logo__light {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  color: var(--light-txt-cl);
+  text-decoration: none;
+  margin-bottom: 20px;
+  display: inline-block;
+}
