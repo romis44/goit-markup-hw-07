@@ -1,4 +1,12 @@
-.submit-btn {
+.subscribe {
+  margin-bottom: 20px;
+}
+
+.subscribe__form {
+  display: flex;
+}
+
+.subscribe__btn {
   width: 200px;
   height: 50px;
 
@@ -19,7 +27,7 @@
   cursor: pointer;
 }
 
-.form-subscribe input {
+.subscribe__form input {
   width: 358px;
   height: 50px;
   background-color: var(--dark-bg-cl);
@@ -28,18 +36,14 @@
   border-radius: 4px;
   padding: 20px;
   transition: border-color var(--animation);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-txt-cl);
+  }
 }
 
-.form-subscribe input:hover,
-.form-subscribe input:focus {
-  border-color: var(--accent-txt-cl);
-}
-
-.form-subscribe {
-  display: flex;
-}
-
-.subscribe-title {
+.subscribe__title {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
@@ -49,11 +53,7 @@
   margin-bottom: 20px;
 }
 
-.subscribe {
-  margin-bottom: 20px;
-}
-
-.telegram {
+.subscribe__icon {
   margin-left: 12px;
   fill: var(--light-txt-cl);
 }

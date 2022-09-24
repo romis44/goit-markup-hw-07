@@ -1,21 +1,7 @@
 @import "./utils/utils";
 
-@import "./base/reset";
-@import "./base/container";
+@import "./base/base";
 
-@import "./components/logo";
-@import "./components/socials";
-@import "./components/footer";
-@import "./components/form";
-@import "./components/modal";
-@import "./components/register-form";
+@import "./components/components";
 
-@import "./layouts/navigation";
-@import "./layouts/header";
-@import "./layouts/hero";
-@import "./layouts/aside";
-@import "./layouts/preview";
-@import "./layouts/team";
-@import "./layouts/customers";
-@import "./layouts/portfolio-btn";
-@import "./layouts/portfolio";
+@import "./layouts/layouts";

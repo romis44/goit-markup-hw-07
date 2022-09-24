@@ -31,7 +31,6 @@
   line-height: calc(24 / 14);
   color: var(--dark-txt-cl);
   text-decoration: none;
-
   transition: color var(--animation);
 
   &:hover,
@@ -39,11 +38,6 @@
     color: var(--accent-txt-cl);
   }
 }
-
-// .footer .footer-link:hover,
-// .footer .footer-link:focus {
-//   color: var(--accent-txt-cl);
-// }
 
 .footer__spitch {
   font-family: "Roboto";

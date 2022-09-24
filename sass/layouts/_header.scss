@@ -29,20 +29,18 @@
   }
 }
 
-// .header .link:hover,
-// .header .link:focus {
-//   color: var(--accent-txt-cl);
-// }
 
 .header__list .link {
   color: var(--grey-txt-cl);
 }
+
 
 .header__link .link {
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
 
 .header__icon {
   fill: currentColor;
@@ -55,7 +53,3 @@
   }
 }
 
-// .header__icon:hover,
-// .header__icon:focus {
-//   fill: var(--accent-bg-cl);
-// }
