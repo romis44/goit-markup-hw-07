@@ -37,6 +37,7 @@
   padding: 20px;
   transition: border-color var(--animation);
   color: var(--light-txt-cl);
+  outline: transparent;
 
   &:hover,
   &:focus {

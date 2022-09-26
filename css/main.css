@@ -357,6 +357,7 @@ img {
   -webkit-transition: border-color var(--animation);
   transition: border-color var(--animation);
   color: var(--light-txt-cl);
+  outline: transparent;
 }
 .subscribe__form input:hover, .subscribe__form input:focus {
   border-color: var(--accent-txt-cl);
