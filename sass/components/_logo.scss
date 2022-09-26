@@ -5,14 +5,11 @@
   line-height: calc(31 / 26);
   color: var(--accent-txt-cl);
   text-decoration: none;
-  padding: 24px 0;
-  margin-right: 93px;
 }
 
 .logo__dark {
   color: var(--logo-txt-cl);
 }
-
 
 .logo__light {
   font-family: var(--secondary-font);
@@ -21,6 +18,16 @@
   line-height: calc(31 / 26);
   color: var(--light-txt-cl);
   text-decoration: none;
-  margin-bottom: 20px;
   display: inline-block;
+}
+
+.logo--header {
+  display: block;
+  padding: 24px 0;
+  margin-right: 93px;
+}
+
+.logo--footer {
+  display: block;
+  margin-bottom: 20px;
 }

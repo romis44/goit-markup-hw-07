@@ -242,8 +242,6 @@ img {
   line-height: 1.1923076923;
   color: var(--accent-txt-cl);
   text-decoration: none;
-  padding: 24px 0;
-  margin-right: 93px;
 }
 
 .logo__dark {
@@ -257,8 +255,18 @@ img {
   line-height: 1.1923076923;
   color: var(--light-txt-cl);
   text-decoration: none;
-  margin-bottom: 20px;
   display: inline-block;
+}
+
+.logo--header {
+  display: block;
+  padding: 24px 0;
+  margin-right: 93px;
+}
+
+.logo--footer {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .socials {
