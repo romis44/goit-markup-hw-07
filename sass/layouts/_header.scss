@@ -10,6 +10,7 @@
 .header__link {
   display: flex;
   align-items: center;
+  padding: 32px 0;
   gap: 10px;
   color: var(--grey-txt-cl);
   transition: color var(--animation);
